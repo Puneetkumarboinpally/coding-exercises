@@ -1,0 +1,10 @@
+div{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 400px;
+    height: 100px;
+    border-width: 1px;
+    border-style: solid;
+}

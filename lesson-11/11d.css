@@ -1,0 +1,63 @@
+p{
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+.friendrequest{
+    width:200px;
+    box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
+     vertical-align: top;
+     margin-right: 15px;
+}
+
+.profile_pic{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+.profile_name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+.mutual{
+    display:grid;
+    grid-template-columns: 35px 1fr;
+    margin-left: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mutual_pic{
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    border-radius: 14px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.mutual_info{
+    color:rgb(100,100,100);
+    vertical-align: middle;
+}
+.add_btn{
+    background-color: rgb(11, 90, 163);
+    color: white;
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius:5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+
+}

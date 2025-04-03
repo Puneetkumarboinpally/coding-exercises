@@ -1,0 +1,39 @@
+.title{
+    font-size: 36px;
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+input{
+    background-color: rgb(243, 239, 239);
+    border:none;
+    border-radius:8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 300px;
+    display: block;
+    margin-bottom: 8px;
+    
+}
+.request{
+    background-color: black;
+    color: white;
+    border:none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 20px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.schedule{
+    background-color:rgb(243, 239, 239);
+    border:none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 20px;
+    vertical-align: middle;
+}

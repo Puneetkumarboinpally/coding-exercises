@@ -1,0 +1,21 @@
+div{
+    background-color: rgb(58, 56, 56);
+    width:400px;
+    font-family: arial;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 16px;
+    padding-left: 16px;
+
+}
+.install{
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    font-weight: bold;
+}
+.des{
+    color:rgb(155, 146, 146);
+    width:350px;
+    
+}

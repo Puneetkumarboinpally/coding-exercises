@@ -1,0 +1,65 @@
+div{
+    font-family: arial;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    width: 420px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.profile_image{
+    margin-right: 10px;
+}
+.image{
+    height:60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.twitter_content{
+    flex: 1;
+}
+.author{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.address{
+    color:rgb(111, 111, 111);
+}
+.tweet{
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.attachment{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(200, 200, 200);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.preview{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(220, 220, 220);
+    margin-right: 10px;
+}
+.link{
+   flex:1;
+}
+.attachment_header{
+    color: rgb(111, 111, 111);
+    margin-bottom: 3px;
+}
+.attachment_title{
+    line-height: 22px;
+
+}

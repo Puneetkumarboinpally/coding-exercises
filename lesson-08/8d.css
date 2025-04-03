@@ -1,0 +1,50 @@
+.name{
+    border-width: 1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 112px;
+    font-size: 16px;
+    border-style: solid;
+
+}
+.name2{
+    border-width: 1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 112px;
+    font-size: 16px;
+    border-style: solid;
+}
+.email{
+    border-width: 1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 16px;
+    border-style: solid;
+    margin-bottom: 10px;
+    display:block;
+    margin-top: 10px;
+}
+button{
+    background-color: rgb(24,146,255);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 270px;
+    font-size:18px;
+    font-weight: bold;
+}

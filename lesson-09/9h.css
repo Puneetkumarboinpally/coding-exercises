@@ -1,0 +1,42 @@
+.design{
+    text-align: center;
+   
+}
+.google{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search{
+    border:none;
+    font-size:16px;
+    width: 500px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius:30px;
+    padding-left:16px;
+    padding-right: 16px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+.search_btn{
+    background-color: rgb(245, 245, 245);
+    border:none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left:20px;
+    padding-right: 20px;
+    font-size: 15px;
+    margin-right: 10px;
+
+}
+.lucky_btn{
+    background-color: rgb(245, 245, 245);
+    border:none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left:20px;
+    padding-right: 20px;
+    font-size: 15px;
+
+}

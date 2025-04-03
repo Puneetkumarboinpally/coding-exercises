@@ -1,0 +1,13 @@
+.google{
+    padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border:none;
+   width: 350px;
+   border-radius: 20px;
+   box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+   font-size: 16px;
+   margin-top:20px;
+   margin-left: 20px;
+}

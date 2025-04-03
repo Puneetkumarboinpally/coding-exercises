@@ -1,0 +1,41 @@
+p{
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    }
+    .profile{
+        width:200px;
+        display:inline-block;
+        margin-right: 10px;
+        box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+    }
+    .profile_pic{
+        width:200px;
+        height:200px;
+        object-fit: cover;
+        margin-bottom: 8px;
+    }
+    .username{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    .mutual{
+        color: rgb(100, 94, 94);
+        margin-bottom: 12px;
+    }
+    .add_btn{
+        background-color: rgb(11, 90, 163);
+        color:white;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border:none;
+        border-radius:4px;
+        cursor: pointer;
+        margin-left: 8px;
+        margin-bottom: 10px;
+    }

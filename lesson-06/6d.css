@@ -1,0 +1,17 @@
+p
+{
+    font-family: montserrat;
+    margin-top: 0px;
+    margin-bottom:0px;
+    text-align: center;
+
+}.model{
+    font-size: 36px;
+   
+    margin-bottom: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.underlined {
+    text-decoration: underline;
+  }
