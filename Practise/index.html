@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const marks = [60, 65, 91, 95, 80];
+
+      const map = marks.map((mark) => mark + 10);
+
+      const find = marks.find((mark) => mark >= 70);
+
+      const filter = marks.filter((mark) => mark > 70);
+
+      const reduce = marks.reduce((total, sum) => total + sum, 0);
+
+      
+
+      console.log(map);
+      console.log(find);
+      console.log(filter);
+      console.log(reduce);
+    </script>
+  </body>
+</html>

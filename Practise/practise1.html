@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   const numbers = [5, 12, 8, 130, 44, 7, 3];
+
+      //   const find = numbers.find((number) => number > 10);
+      //   console.log(find);
+
+      //   const greaterThan = numbers.filter((number) => number > 10);
+      //   console.log(greaterThan);
+
+      //   const prices = [100, 200, 350, 150];
+
+      //   const total = prices.reduce((total, sum) => total + sum, 0);
+      //   console.log(total);
+
+      //   const students = [
+      //     { name: "John", marks: 85 },
+      //     { name: "Alice", marks: 92 },
+      //     { name: "Bob", marks: 70 },
+      //     { name: "Sam", marks: 95 },
+      //   ];
+
+      //   const pass = students.find((student) => student.marks > 90);
+      //   console.log(pass);
+
+      //   const numbers = [1, 2, 3, 4, 5, 6];
+
+      //   const multiply = numbers.map((number) => number * 2);
+      //   console.log(multiply);
+
+      //   const numbers = [10, 25, 30, 45, 50];
+
+      //   const together = numbers
+      //     .filter((number) => number > 30)
+      //     .map((number) => number * 2);
+
+      //   console.log(together);
+
+      //   const products = [
+      //     { name: "Laptop", price: 1000 },
+      //     { name: "Phone", price: 500 },
+      //     { name: "Tablet", price: 700 },
+      //   ];
+
+      //   const newArr = products.map((product) => product.name);
+      //   console.log(newArr);
+
+      //   const users = [
+      //     { name: "John", age: 25 },
+      //     { name: "Alice", age: 17 },
+      //     { name: "Bob", age: 30 },
+      //     { name: "Sam", age: 15 },
+      //   ];
+
+      //   const legalAge = users.filter((user) => user.age >= 18);
+      //   console.log(legalAge);
+
+      //   const cart = [
+      //     { item: "Laptop", price: 1000 },
+      //     { item: "Mouse", price: 50 },
+      //     { item: "Keyboard", price: 100 },
+      //   ];
+
+      //   const total = cart.reduce((acc, price) => acc + price.price, 0);
+      //   console.log(total);
+
+      //   const numbers = [3, 7, 12, 18, 21, 30];
+
+      //   const sumOfEvenNum = numbers
+      //     .filter((number) => number % 2 === 0)
+      //     .reduce((acc, num) => acc + num, 0);
+      //   console.log(sumOfEvenNum);
+
+      //   const employees = [
+      //     { name: "John", department: "IT", salary: 5000 },
+      //     { name: "Alice", department: "HR", salary: 4000 },
+      //     { name: "Bob", department: "IT", salary: 7000 },
+      //     { name: "Sam", department: "Finance", salary: 6000 },
+      //   ];
+
+      //   const itEmp = employees.filter(
+      //     (employee) => employee.department === "IT",
+      //   );
+      //   console.log(itEmp);
+
+      //   const products = [
+      //     { name: "Laptop", price: 1200 },
+      //     { name: "Phone", price: 800 },
+      //     { name: "Tablet", price: 500 },
+      //     { name: "Monitor", price: 300 },
+      //   ];
+
+      //   const descending = products.sort((a, b) => b.price - a.price);
+      //   console.log(descending);
+
+      //   const students = [
+      //     { name: "John", marks: 85 },
+      //     { name: "Alice", marks: 95 },
+      //     { name: "Bob", marks: 75 },
+      //     { name: "Sam", marks: 90 },
+      //   ];
+
+      //   const topStudent = [...students]
+      //     .sort((a, b) => b.marks - a.marks)
+      //     .find((student) => student.marks);
+
+      //   console.log(topStudent);
+
+      //   const employees = [
+      //     { name: "John", salary: 5000 },
+      //     { name: "Alice", salary: 8000 },
+      //     { name: "Bob", salary: 6000 },
+      //     { name: "Sam", salary: 9000 },
+      //   ];
+
+      //   const highestSalary = employees.reduce((acc, highest) =>
+      //     acc.salary > highest.salary ? acc : highest,
+      //   );
+
+      //   console.log(highestSalary);
+
+      //   const orders = [
+      //     { id: 1, status: "completed", amount: 200 },
+      //     { id: 2, status: "pending", amount: 300 },
+      //     { id: 3, status: "completed", amount: 500 },
+      //     { id: 4, status: "cancelled", amount: 100 },
+      //   ];
+
+      //   const completedOrders = orders
+      //     .filter((order) => order.status === "completed")
+      //     .reduce((acc, amount) => acc + amount.amount, 0);
+      //   console.log(completedOrders);
+
+      //   const users = [
+      //     { name: "John", role: "admin" },
+      //     { name: "Alice", role: "user" },
+      //     { name: "Bob", role: "admin" },
+      //     { name: "Sam", role: "user" },
+      //   ];
+
+      //   const group = users.reduce((acc, user) => {
+      //     const role = user.role;
+
+      //     // For each user, it checks if acc already has a
+      //     // key for that user's role. If not, it creates one with an empty array.
+      //     if (!acc[role]) {
+      //       acc[role] = [];
+      //     }
+
+      //     // It then pushes the current user into that role's array.
+      //     acc[role].push(user);
+
+      //     // The result is an object where each key is a role,
+      //     // and each value is an array of users with that role.
+      //     return acc;
+
+      //     // acc starts as an empty object {}.
+      //   }, {});
+
+      //   console.log(group);
+
+      //   const products = [
+      //     { name: "Laptop", category: "Electronics", price: 1000 },
+      //     { name: "Phone", category: "Electronics", price: 500 },
+      //     { name: "Shirt", category: "Clothing", price: 50 },
+      //     { name: "Shoes", category: "Clothing", price: 100 },
+      //     { name: "TV", category: "Electronics", price: 800 },
+      //   ];
+
+      //   const groupedCategory = products.reduce((acc, product) => {
+      //     const category = product.category;
+
+      //     if (!acc[category]) {
+      //       acc[category] = [];
+      //     }
+      //     acc[category].push(product);
+      //     return acc;
+      //   }, {});
+
+      //   console.log(groupedCategory);
+
+      //   const employees = [
+      //     { name: "John", department: "IT", salary: 5000 },
+      //     { name: "Alice", department: "HR", salary: 4000 },
+      //     { name: "Bob", department: "IT", salary: 7000 },
+      //     { name: "Sam", department: "HR", salary: 6000 },
+      //   ];
+
+      //   const TotalSalary = employees.reduce((acc, group) => {
+      //     const department = group.department;
+
+      //     if (!acc[department]) {
+      //       acc[department] = 0;
+      //     }
+
+      //     acc[department] += group.salary;
+
+      //     return acc;
+      //   }, {});
+      //   console.log(TotalSalary);
+
+      //   Using reduce(), create an object that counts how many students have each mark.
+      //   const students = [
+      //     { name: "John", marks: 85 },
+      //     { name: "Alice", marks: 92 },
+      //     { name: "Bob", marks: 70 },
+      //     { name: "Sam", marks: 92 },
+      //   ];
+
+      //   const studentsGroupedByMarks = students.reduce((acc, student) => {
+      //     const marks = student.marks;
+
+      //     if (!acc[marks]) {
+      //       acc[marks] = 0;
+      //     }
+      //     acc[marks] += 1;
+      //     return acc;
+      //   }, {});
+      //   console.log(studentsGroupedByMarks);
+
+      // Using reduce(), calculate the final balance.
+      //   Rule:
+
+      //   credit → add amount
+      //   debit → subtract amount
+
+      //   const transactions = [
+      //     { type: "credit", amount: 1000 },
+      //     { type: "debit", amount: 300 },
+      //     { type: "credit", amount: 500 },
+      //     { type: "debit", amount: 200 },
+      //   ];
+
+      //   const finalBalance = transactions.reduce((acc, transaction) => {
+      //     if (transaction.type === "credit") {
+      //       acc += transaction.amount;
+      //     } else if (transaction.type === "debit") {
+      //       acc -= transaction.amount;
+      //     }
+      //     return acc
+      //   }, 0);
+      //   console.log(finalBalance);
+
+      // Using reduce(), count the frequency of each word.
+      //   const words = ["apple", "banana", "apple", "orange", "banana", "apple"];
+
+      //   const frequency = words.reduce((acc, count) => {
+      //     if (!acc[count]) {
+      //       acc[count] = 0;
+      //     }
+      //     acc[count] += 1;
+      //     return acc;
+      //   }, {});
+      //   console.log(frequency);
+
+      // Using map() and filter() together, create a new array containing only the
+      // names of students who scored 90 or above.
+      //   const students = [
+      //     { name: "John", marks: 85 },
+      //     { name: "Alice", marks: 95 },
+      //     { name: "Bob", marks: 75 },
+      //     { name: "Sam", marks: 90 },
+      //   ];
+
+      //   const topStudent = students
+      //     .filter((student) => student.marks >= 90)
+      //     .map((s) => s.name);
+      //   console.log(topStudent);
+
+      // Using reduce(), calculate the total order amount for each customer.
+      //   const orders = [
+      //     { id: 1, customer: "John", amount: 200 },
+      //     { id: 2, customer: "Alice", amount: 500 },
+      //     { id: 3, customer: "John", amount: 300 },
+      //     { id: 4, customer: "Bob", amount: 100 },
+      //   ];
+
+      //   const orderTotal = orders.reduce((acc, order) => {
+      //     const user = order.customer;
+      //     if (!acc[user]) {
+      //       acc[user] = 0;
+      //     }
+      //     acc[user] += order.amount;
+      //     return acc;
+      //   }, {});
+      //   console.log(orderTotal);
+
+      // Using only reduce(), calculate the average salary for each department.
+      //   const employees = [
+      //     { name: "John", department: "IT", salary: 5000 },
+      //     { name: "Alice", department: "HR", salary: 4000 },
+      //     { name: "Bob", department: "IT", salary: 7000 },
+      //     { name: "Sam", department: "HR", salary: 6000 },
+      //     { name: "Mike", department: "IT", salary: 3000 },
+      //   ];
+
+      //   const grouped = employees.reduce((acc, employee) => {
+      //     const dept = employee.department;
+
+      //     if (!acc[dept]) {
+      //       acc[dept] = {
+      //         total: 0,
+      //         count: 0,
+      //       };
+      //     }
+
+      //     acc[dept].total += employee.salary;
+      //     acc[dept].count++;
+
+      //     return acc;
+      //   }, {});
+
+      //   const averageSalary = Object.keys(grouped).reduce((acc, dept) => {
+      //     acc[dept] = grouped[dept].total / grouped[dept].count;
+
+      //     return acc;
+      //   }, {});
+
+      //   console.log(averageSalary);
+
+    //   const people = [
+    //     { name: "walter", age: 50 },
+    //     { name: "jesse", age: 24 },
+    //     { name: "Mike", age: 60 },
+    //     { name: "Skyler", age: 39 },
+    //   ];
+
+    //   const adult = people.filter((p) => p.age > 40).map((p) => p.name);
+
+    //   console.log(adult);
+    </script>
+  </body>
+</html>
